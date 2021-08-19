@@ -8,7 +8,7 @@
 import '@nomiclabs/hardhat-waffle'
 import '@nomiclabs/hardhat-ethers'
 import 'hardhat-gas-reporter'
-import './hardhat/tasks'
+import './tasks'
 
 module.exports = {
   solidity: '0.8.0',
@@ -20,8 +20,8 @@ module.exports = {
   },
   paths: {
     sources: './contracts',
-    tests: './hardhat/tests',
-    cache: './hardhat/cache',
-    artifacts: './hardhat/artifacts'
+    tests: './tests',
+    cache: './cache',
+    artifacts: './artifacts'
   }
 }
