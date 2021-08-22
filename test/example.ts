@@ -1,10 +1,10 @@
 import { ethers } from 'hardhat'
-import { BigNumber, Contract, Signer } from 'ethers'
+import { Contract } from 'ethers'
 import { expect } from 'chai'
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers'
 import { Interface } from 'ethers/lib/utils'
 
-describe('Trie', function () {
+describe('Example', function () {
   let Example: Contract
   let owner: SignerWithAddress
   let iface: Interface
