@@ -9,7 +9,7 @@ __pycache__
 artifacts
 cache
 deployments
-typechain
+types
 
 node_modules
 

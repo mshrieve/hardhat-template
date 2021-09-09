@@ -5,6 +5,7 @@
 // import * as dotenv from 'dotenv'
 // dotenv.config()
 
+import '@typechain/hardhat'
 import '@nomiclabs/hardhat-waffle'
 import '@nomiclabs/hardhat-ethers'
 import '@typechain/hardhat'
@@ -22,6 +23,10 @@ module.exports = {
       // url: process.env.ALCHEMY_RINKEBY_ENDPOINT,
       // accounts: [process.env.RINKEBY_PRIVATE_KEY]
     }
+  },
+  typechain: {
+    outDir: './types',
+    target: 'ethers-v5'
   },
   settings: {
     optimizer: {
