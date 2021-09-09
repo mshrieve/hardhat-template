@@ -13,6 +13,16 @@ import './tasks'
 
 module.exports = {
   solidity: '0.8.0',
+  etherscan: {
+    // comment out if not using
+    // apiKey: process.env.ETHERSCAN_API_KEY
+  },
+  networks: {
+    rinkeby: {
+      // url: process.env.ALCHEMY_RINKEBY_ENDPOINT,
+      // accounts: [process.env.RINKEBY_PRIVATE_KEY]
+    }
+  },
   settings: {
     optimizer: {
       enabled: true,
