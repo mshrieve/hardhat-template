@@ -19,10 +19,10 @@ module.exports = {
     // apiKey: process.env.ETHERSCAN_API_KEY
   },
   networks: {
-    rinkeby: {
-      // url: process.env.ALCHEMY_RINKEBY_ENDPOINT,
-      // accounts: [process.env.RINKEBY_PRIVATE_KEY]
-    }
+    // rinkeby: {
+    //   url: process.env.ALCHEMY_RINKEBY_ENDPOINT,
+    //   accounts: [process.env.RINKEBY_PRIVATE_KEY]
+    // }
   },
   typechain: {
     outDir: './types',
