@@ -1,5 +1,7 @@
 {
   "name": "hardhat-template",
+  "license": "GPL-3.0",
+  "author": "Mike Shrieve",
   "scripts": {
     "test": "npx hardhat test"
   },
